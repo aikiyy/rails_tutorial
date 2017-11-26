@@ -55,6 +55,9 @@ end
 
 group :test do
   gem 'minitest-reporters'
+  gem 'rails-controller-testing'
+  gem 'guard'
+  gem 'guard-minitest'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
